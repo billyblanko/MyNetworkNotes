@@ -112,3 +112,9 @@ Given the host Ipv4 address and Subnet mask 192.168.2.34/24
 Using ANDing process find the network address of the host.
 
 /24 subnet mask equals 255.255.255.0
+
+![ANDing Process](https://github.com/user-attachments/assets/e7d6e7e8-43db-4922-8964-d5568e199357)
+
+Thus, the network address in binary format is 11000000.10101000.00000010.00000000
+Converting the Network Address back to decimal will be 192.168.2.0 /24
+
