@@ -73,3 +73,42 @@ RouterPT uses the FastEthernet Interface and it's configuration is beginner frie
 
 -- select the automatic cable to connect all devices except both Routers
 -- use the cross-over cable to connect both routers 
+
+
+# Subnetting  IPv4 Networks
+
+# *IPv4 addressing*
+
+IPv4 addresses are 32-bit logical address - Consists of a network portion and a host portion
+
+*Characteristics Of IPv4*
+
+-- Length will vary depending on the size of the network.
+
+-- A network is a range of addresses
+
+-- All devices on the same network have The same network portion (network ID) but a different host portion (host ID)
+
+*Important Addresses to Determine In an IPv4 Network Range*
+
+- Network Address (first address in the range): This is used to identify the network itself
+
+- Broadcast Address (last address in the range) :- This is used to send a message on all devices in the network at once.
+
+- First usable host (address after the network address)
+
+- Last usable host (address before the broadcast address)
+
+# *Binary Anding Process*
+
+A binary Anding process is used to find the network address of a host.
+By performing a bitwise AND operation between an IP address and its subnet mask, network devices can identify the network portion of the IP address.   
+This is essential for routers to make forwarding decisions and for devices to determine if they are on the same network.
+
+For Example,
+
+Given the host Ipv4 address and Subnet mask 192.168.2.34/24
+
+Using ANDing process find the network address of the host.
+
+/24 subnet mask equals 255.255.255.0
