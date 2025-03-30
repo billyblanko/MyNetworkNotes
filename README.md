@@ -113,6 +113,8 @@ Using ANDing process find the network address of the host.
 
 /24 subnet mask equals 255.255.255.0
 
+![Image](https://github.com/user-attachments/assets/539c5c07-a9c3-4f0e-b7ec-9a3bbd4a61af)
+
 Thus, the network address in binary format is 11000000.10101000.00000010.00000000
 Converting the Network Address back to decimal will be 192.168.2.0 /24
 
