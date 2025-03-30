@@ -118,3 +118,39 @@ Using ANDing process find the network address of the host.
 Thus, the network address in binary format is 11000000.10101000.00000010.00000000
 Converting the Network Address back to decimal will be 192.168.2.0 /24
 
+# *Subnetting With Magic Numbers*
+
+-- METHOD 1 
+
+![Image](https://github.com/user-attachments/assets/490ffee1-1e02-4d7f-8e11-9e80a3571c26)
+
+The number of borrowed network from your host determines the magic number value. For instance if you borrow 3 host bits from the host bit octets, The value is determined by; 2^(Remaining Number Of Host Bit Octets). 
+Here is an example;
+Using this subnet mask 255.255.255.240. 
+STEP 1;
+Convert the subnet mask to binary 
+11111111.11111111.11111111.11110000
+
+You achieve your Magic Number from your host octets
+Host Octets= 11110000
+where; 1's represents the borrowed network bits and 0's represents the host bits 
+thus; we have 4 0's left 
+therefore; 2^4 equals 16.
+
+We just derived the magic number which is 16. 
+
+-- METHOD 2
+Using this subnet mask 255.255.255.240. 
+
+The maximum subnet mask length is 255.255.255.256.
+
+Convert the subnet mask to binary 
+11111111.11111111.11111111.11110000
+
+Focusing on the 0's subtract this host bits from the maximum length of a host octet (256)
+
+256 - 240 = 16
+
+Therefore your magic number is 16.
+
+The Magic number helps you ascertain the specific number of addresses a subnet will increase in a network. 
