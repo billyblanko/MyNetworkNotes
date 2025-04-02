@@ -154,3 +154,27 @@ Focusing on the 0's subtract this host bits from the maximum length of a host oc
 Therefore your magic number is 16.
 
 The Magic number helps you ascertain the specific number of addresses a subnet will increase in a network. 
+
+
+# Subnetting An IPv4 Network 
+
+ Create multiple subnets out of this IP address 192.168.0.0 /24
+
+ 1. For the first subnet is the LAN-A network you need a minimum of 50 hosts IP address.
+ 2. The second subnet is the LAN-B network, you need a minimum of 40 host IP address.
+ 3. You also need at least two additional unused subnet for future network expansion.
+    Note: Variable length subnet mask will not be used. All of the device subnet masks should be the same length
+4. Answer the following questions to help create a subnetting scheme that meets the stated network requirements
+   a. How many host addresses are needed in the largestest required subnets
+   b. what is the minimum number of subnet required
+
+The network you are tasked to subnet is 192.168.0.0 /24. 
+
+The 192.168.0.0
+11111111.11111111.00000000.00000000
+
+/24 prefix length simply means the first 24 bits are all 1s 
+
+Subnet Mask Value in Binary: 11111111.11111111.111111111.00000000
+Subnet Mask Value in Decimal: 255.255.0
+
