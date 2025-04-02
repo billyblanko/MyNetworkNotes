@@ -165,7 +165,7 @@ The Magic number helps you ascertain the specific number of addresses a subnet w
  3. You also need at least two additional unused subnet for future network expansion.
     Note: Variable length subnet mask will not be used. All of the device subnet masks should be the same length
 4. Answer the following questions to help create a subnetting scheme that meets the stated network requirements
-   a. How many host addresses are needed in the largestest required subnets
+   a. How many host addresses are needed in the largest required subnets
    b. what is the minimum number of subnet required
 
 The network you are tasked to subnet is 192.168.0.0 /24. 
@@ -178,3 +178,13 @@ The 192.168.0.0
 Subnet Mask Value in Binary: 11111111.11111111.111111111.00000000
 Subnet Mask Value in Decimal: 255.255.0
 
+![Image](https://github.com/user-attachments/assets/0a07b568-931c-47d5-b468-6bc6508ae78f)
+
+The first question states that LAN-A requires 50 hosts. This requirement falls under the /26 prefix 
+The second question states that the LAN-B requires 40 hosts. This requirement falls under the same prefix length
+The third qustion states that we need an additional two unused subnets for future expansion 
+The fourth question: 
+a. 62 usable host addresses are needed for the large network
+b. the minimum number of subnets needed is 4
+
+Now we can create a Subnetting Scheme for this table below 
