@@ -188,3 +188,9 @@ a. 62 usable host addresses are needed for the large network
 b. the minimum number of subnets needed is 4
 
 Now we can create a Subnetting Scheme for this table below 
+
+![Image](https://github.com/user-attachments/assets/b26c9c29-8a76-4864-8a4f-d145fc9d8b76)
+
+With this scheme we can achieve our network topology on packet tracer 
+
+Below is the IPv4 Addressing Scheme Network Topology 
