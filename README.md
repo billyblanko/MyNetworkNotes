@@ -235,6 +235,7 @@ Last Usable Host: 192.168.0.254
 
 Filling up the IPv4 Addressing Scheme, we will derive this details below;
 
+![Image](https://github.com/user-attachments/assets/135704d4-86ba-4fcd-80a1-fa76255f38b1)
 
 Below is the IPv4 Subnetting Scheme Network Topology 
 
