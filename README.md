@@ -118,7 +118,7 @@ Using ANDing process find the network address of the host.
 Thus, the network address in binary format is 11000000.10101000.00000010.00000000
 Converting the Network Address back to decimal will be 192.168.2.0 /24
 
-# *Subnetting With Magic Numbers*
+# Subnetting With Magic Numbers
 
 -- METHOD 1 
 
@@ -204,36 +204,36 @@ the first subnet is 192.168.0.0 /26 using the increment of the magic number `64`
 192.168.0.128
 192.168.0.192
 
-In Details this is how structure looks like 
+In Details this is how structure looks like </br>
 Subnet 1: 192.168.0.0/26
-
-Network Address: 192.168.0.0
-Broadcast Address: 192.168.0.63
-First Usable Host: 192.168.0.1
+</br>
+Network Address: 192.168.0.0 </br>
+Broadcast Address: 192.168.0.63 </br>
+First Usable Host: 192.168.0.1 </br>
 Last Usable Host: 192.168.0.62
 
 Subnet 2: 192.168.0.64/26
-
-Network Address: 192.168.0.64
-Broadcast Address: 192.168.0.127
-First Usable Host: 192.168.0.65
+</br>
+Network Address: 192.168.0.64 </br>
+Broadcast Address: 192.168.0.127 </br>
+First Usable Host: 192.168.0.65 </br>
 Last Usable Host: 192.168.0.126
 
-Subnet 3: 192.168.0.128/26
-
-Network Address: 192.168.0.128
-Broadcast Address: 192.168.0.191
-First Usable Host: 192.168.0.129
+Subnet 3: 192.168.0.128/26 
+</br>
+Network Address: 192.168.0.128 </br> 
+Broadcast Address: 192.168.0.191 </br>
+First Usable Host: 192.168.0.129 </br>
 Last Usable Host: 192.168.0.190
 
 Subnet 4: 192.168.0.192/26
-
-Network Address: 192.168.0.192
-Broadcast Address: 192.168.0.255
-First Usable Host: 192.168.0.193
+</br>
+Network Address: 192.168.0.192 </br>
+Broadcast Address: 192.168.0.255 </br>
+First Usable Host: 192.168.0.193 </br>
 Last Usable Host: 192.168.0.254
 
-Filling up the IPv4 Addressing Scheme, we will derive this details below;
+Complete IPv4 Addressing Scheme;
 
 ![Image](https://github.com/user-attachments/assets/135704d4-86ba-4fcd-80a1-fa76255f38b1)
 
