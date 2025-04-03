@@ -193,4 +193,49 @@ Now we can create a Subnetting Scheme for this table below
 
 With this scheme we can achieve our network topology on packet tracer 
 
-Below is the IPv4 Addressing Scheme Network Topology 
+Completeing The Subnetting Scheme Table
+
+Since the minimum number of subnets is 4
+
+the first subnet is 192.168.0.0 /26 using the increment of the magic number `64` 4x. We will get;
+
+192.168.0.0
+192.168.0.64
+192.168.0.128
+192.168.0.192
+
+In Details this is how structure looks like 
+Subnet 1: 192.168.0.0/26
+
+Network Address: 192.168.0.0
+Broadcast Address: 192.168.0.63
+First Usable Host: 192.168.0.1
+Last Usable Host: 192.168.0.62
+
+Subnet 2: 192.168.0.64/26
+
+Network Address: 192.168.0.64
+Broadcast Address: 192.168.0.127
+First Usable Host: 192.168.0.65
+Last Usable Host: 192.168.0.126
+
+Subnet 3: 192.168.0.128/26
+
+Network Address: 192.168.0.128
+Broadcast Address: 192.168.0.191
+First Usable Host: 192.168.0.129
+Last Usable Host: 192.168.0.190
+
+Subnet 4: 192.168.0.192/26
+
+Network Address: 192.168.0.192
+Broadcast Address: 192.168.0.255
+First Usable Host: 192.168.0.193
+Last Usable Host: 192.168.0.254
+
+Filling up the IPv4 Addressing Scheme, we will derive this details below;
+
+
+Below is the IPv4 Subnetting Scheme Network Topology 
+
+![Image](https://github.com/user-attachments/assets/39f4ffe5-c443-42b5-9b86-fd5d5fa1655d)
